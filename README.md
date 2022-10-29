@@ -1,7 +1,5 @@
 # 🚀 Restaurant Website
-
 <!-- PROJECT IMAGES -->
-
 <div align="center">
 <!-- MAIN WEBSITE IMAGE -->
 	<table>
@@ -64,3 +62,4 @@
       </td>
     </tr>
   </table>
+</div>
