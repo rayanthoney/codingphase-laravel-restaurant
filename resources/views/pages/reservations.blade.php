@@ -8,6 +8,14 @@
                 <h1>Get On The List</h1>
                 <form>
                     <div class="form-group">
+                      <label for="firstnameinput">First Name</label>
+                      <input type="text" class="form-control" name="fname" id="firstnameinput" placeholder="Paul">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastnameinput">Last Name</label>
+                      <input type="text" class="form-control" name="lname" id="lastnameinput" placeholder="Smith">
+                    </div>
+                    <div class="form-group">
                       <label for="emailInput">Email address</label>
                       <input type="email" class="form-control" name="email" id="emailInput" placeholder="name@example.com">
                     </div>

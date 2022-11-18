@@ -13,45 +13,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Static Pages
+Route::get('/', 'App\Http\Controllers\StaticPagesController@home');
+Route::get('/menu', 'App\Http\Controllers\StaticPagesController@menu');
+Route::get('/menu/{slug}', 'App\Http\Controllers\StaticPagesController@singleMenu');
+Route::get('/about', 'App\Http\Controllers\StaticPagesController@about');
+Route::get('/reservations', 'App\Http\Controllers\StaticPagesController@reservations');
+Route::get('/contact', 'App\Http\Controllers\StaticPagesController@contact');
+Route::get('/offers', 'App\Http\Controllers\StaticPagesController@offers');
 
-Route::get('/admin', function () {
-    return view('admin/dashboard');
-});
+// Admin Dashboard
+Route::get('/admin', 'App\Http\Controllers\admin\AdminController@dashboard');
 
-Route::get('/admin/food-categories', function () {
-    return view('admin/food-categories/all');
-});
+// Admin Food Categories
+Route::get('/admin/food-categories', 'App\Http\Controllers\admin\FoodCategoriesController@index');
+Route::get('/admin/food-categories/create', 'App\Http\Controllers\admin\FoodCategoriesController@create');
+Route::get('/admin/food-categories/{id}/edit', 'App\Http\Controllers\admin\FoodCategoriesController@edit');
 
+// Admin Food Items
+Route::get('/admin/food-items', 'App\Http\Controllers\admin\FoodItemsController@index');
+Route::get('/admin/food-items/create', 'App\Http\Controllers\admin\FoodItemsController@create');
+Route::get('/admin/food-items/{id}/edit', 'App\Http\Controllers\admin\FoodItemsController@edit');
+
+// Admin Customers
+Route::get('/admin/offers-members', 'App\Http\Controllers\admin\CustomersController@allOffersMembers');
+Route::get('/admin/reservations', 'App\Http\Controllers\admin\CustomersController@allReservations');
+
+
+// Admin Authentication
 Route::get('/admin/register', function () {
     return view('admin/register');
 });
 
 Route::get('/admin/login', function () {
     return view('admin/login');
-});
-
-Route::get('/menu', function () {
-    return view('menu/index');
-});
-
-Route::get('/menu/{slug}', function () {
-    return view('menu/single-menu');
-});
-
-Route::get('/about', function () {
-    return view('pages/about');
-});
-Route::get('/waitlist', function () {
-    return view('pages/waitlist');
-});
-
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
-
-Route::get('/offers', function () {
-    return view('pages/offers');
 });

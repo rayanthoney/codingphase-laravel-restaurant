@@ -1,5 +1,25 @@
 #single-menu-page {
     padding: 100px;
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #ed4852;
+        margin-bottom: 2rem;
+    }
+    .item {
+        margin-bottom: 2rem;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+        width: 100%;
+        h4, .price {
+            font-size: 1.4rem;
+            color: black;
+            font-weight: 900;
+        }
+    }
     #food-preview {
         padding: 0;
         background: transparent;
@@ -38,6 +58,9 @@
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) {
+    #single-menu-page {
+        padding: 20px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

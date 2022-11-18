@@ -219,6 +219,61 @@ table {
     padding: 20px;
   }
 }
+#single-menu-page {
+  padding: 100px;
+}
+#single-menu-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ed4852;
+  margin-bottom: 2rem;
+}
+#single-menu-page .item {
+  margin-bottom: 2rem;
+}
+#single-menu-page .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+#single-menu-page .title h4, #single-menu-page .title .price {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 900;
+}
+#single-menu-page #food-preview {
+  padding: 0;
+  background: transparent;
+}
+#single-menu-page #food-preview h2 {
+  color: white;
+  text-transform: uppercase;
+}
+#single-menu-page #food-preview .button-rounded {
+  margin-bottom: 2rem;
+  background: black;
+}
+#single-menu-page #food-preview .food-slider .slide:hover .background {
+  background: black;
+  transform: translate3d(0, -200px, 0);
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
 .welcome-jumbo {
   transform: translate3d(300px, 0, 0);
   max-width: calc(100vw - 300px);
