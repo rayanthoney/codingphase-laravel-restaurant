@@ -28,7 +28,8 @@
               <h1>Rooster Burger</h1>
               <img src="img/hamburger-and-fries.png" class="burger-fries">
             </div>
-          </section>
+        </section>
           @yield('content')
+
         </body>
 </html>
