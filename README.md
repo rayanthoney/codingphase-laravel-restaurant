@@ -31,7 +31,6 @@
   </table>
   <br>
   <br>
-  <hr>
 <!-- PROJECT DESCRIPTION -->
   <table>
 		<tr>
@@ -39,15 +38,15 @@
 				<h3 align="center">🚀 My restaurant website</h3>
 				<div align="center">
           <p>
-            <a href="https://codingphase.com" target="_blank">
+            <a href="https://github.com/rayanthoney/codingphase-laravel-restaurant" target="_blank">
               <img src="https://img.shields.io/badge/Repo-lightgrey?style=plastic&zfor-the-badge&logo=github"/>
             </a>  
-            <a href="https://codingphase.com" target="_blank">
+            <a href="--GOES TO LIVE URL--" target="_blank">
               <img src="https://img.shields.io/badge/Live-lightgrey?style=plastic&zfor-the-badge&color=0892d0"/>
             </a>
           </p>
           <p align="center">
-            <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a>
+            <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200"></a>
           </p>
           <p align="center">
             <a href="https://skillicons.dev">
@@ -67,4 +66,3 @@ Write a short sentence or two about this project and what it does. Be sure to in
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 <br>
 <br>
-<hr>
