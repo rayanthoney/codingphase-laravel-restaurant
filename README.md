@@ -36,6 +36,7 @@
 		<tr>
 			<td width="100%">
 				<h3 align="center">🚀 My restaurant website</h3>
+        <br>
 				<div align="center">
           <p>
             <a href="https://github.com/rayanthoney/codingphase-laravel-restaurant" target="_blank">
@@ -53,6 +54,7 @@
               <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,mongodb,express,php,sass,netlify,mysql,bootstrap" />
             </a>
           </p>
+          <br>
           <br>
           <p><strong>How It's Made</strong></p>
         </div>
