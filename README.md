@@ -1,4 +1,4 @@
-# 🛠️ Restaurant Website 
+# 🚀 Restaurant Website 
 
 <div align="center" >
 <!-- link to project -->
@@ -10,9 +10,23 @@
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 <br>
 <br>
+</div>
+
+# 🛠️ Admin Dashboard 
+
+<div align="center" >
+<!-- link to project -->
+    <a href='-URL TO DEMO GOES HERE-'>
+    <!-- link to local image -->
+        <img src="public/img/dashboard.png" alt="" height="100%"/>
+    </a>
+
+**Link to project:** http://recruiters-love-seeing-live-demos.com/
+<br>
+<br>
 
 <p>
-<a href="https://github.com/rayanthoney/" target="_blank">
+<a href="https://github.com/rayanthoney/codingphase-laravel-restaurant" target="_blank">
 <img src="https://img.shields.io/badge/Repo-lightgrey?style=plastic&zfor-the-badge&logo=github"/>
 </a>
 <a href="-URL DEMO GOES HERE-" target="_blank">
@@ -30,6 +44,10 @@ Here's where you can go to town on how you actually built this thing. Write as m
 <br>
 
 <p align="center">
+  <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a>
+</p>
+
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,mongodb,express,php,sass,netlify,mysql,bootstrap" />
   </a>
@@ -38,14 +56,14 @@ Here's where you can go to town on how you actually built this thing. Write as m
 
 
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+</p> -->
 
 ## About Laravel
 
