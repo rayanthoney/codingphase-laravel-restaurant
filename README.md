@@ -13,12 +13,7 @@
 						<img src="public/img/rooster-burger.png" alt="project 1" width="75%" height="100%" />
 					</a>
 				</div>
-			</td>
-  </table>
-  <br>
-  <br>
-  <!-- ADMIN PAGE IMAGE -->
-  <table>
+			</td>  
 			<td width="50%">
 				<h3 align="center">🛠️ Admin Dashboard </h3>
 				<div align="center" >  
@@ -31,19 +26,17 @@
   </table>
   <br>
   <br>
-<!-- PROJECT DESCRIPTION -->
-  <table>
-		<tr>
-			<td width="100%">
-				<h3 align="center">🚀 My restaurant website</h3>
+    <tr>
+      <td width="100%">
+        <h3 align="center">🚀 My restaurant website</h3>
         <br>
-				<div align="center">
+        <div align="center">
           <p>
             <a href="https://github.com/rayanthoney/codingphase-laravel-restaurant" target="_blank">
-              <img src="https://img.shields.io/badge/Repo-lightgrey?style=plastic&zfor-the-badge&logo=github"/>
+              <img src="https://img.shields.io/badge/Repo-lightgrey?style=plastic&logo=github"/>
             </a>  
             <a href="--GOES TO LIVE URL--" target="_blank">
-              <img src="https://img.shields.io/badge/Live-lightgrey?style=plastic&zfor-the-badge&color=0892d0"/>
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=plastic&color=0892d0"/>
             </a>
           </p>
           <p align="center">
@@ -59,8 +52,8 @@
           <p><strong>How It's Made</strong></p>
         </div>
       </td>
-    </tr>
-	</table>
+      </tr>
+  </table>
 </div>
 
 Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!)..
