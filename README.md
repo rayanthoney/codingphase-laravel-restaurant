@@ -26,8 +26,7 @@
   </table>
   <br>
   <br>
-  <hr>
-
+  
   <table>
     <tr>
       <td width="100%">
