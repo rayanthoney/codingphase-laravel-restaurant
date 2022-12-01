@@ -26,6 +26,7 @@
   </table>
   <br>
   <br>
+  <table>
     <tr>
       <td width="100%">
         <h3 align="center">🚀 My restaurant website</h3>
@@ -52,7 +53,7 @@
           <p><strong>How It's Made</strong></p>
         </div>
       </td>
-      </tr>
+    </tr>
   </table>
 </div>
 
