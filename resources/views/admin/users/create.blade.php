@@ -33,14 +33,25 @@
             <div class="card">
                 <h5 class="card-header"> Create a new user </h5>
                 <div class="card-body">
-                    <form action="#" id="basicform" data-parsley-validate="">
+                    <form method="POST" action="/admin/users">
+                        @csrf
                         <div class="form-group">
                             <label for="inputFirstname"> First Name </label>
-                            <input id="inputFirstname" type="text" name="fname" data-parsley-trigger="change" required="" placeholder="Enter first name" autocomplete="off" class="form-control">
+                            <input id="inputFirstname" type="text" class="form-control form-control-lg @error('fname') is-invalid @enderror" name="fname" value="{{ old('fname') }}" required autocomplete="name" autofocus placeholder="First Name">
+                            @error('fname')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
                         <div class="form-group">
                             <label for="inputLastname"> Last Name </label>
-                            <input id="inputLastname" type="text" name="lname" data-parsley-trigger="change" required="" placeholder="Enter last name" autocomplete="off" class="form-control">
+                            <input id="inputLastname" type="text" class="form-control form-control-lg @error('lname') is-invalid @enderror" name="lname" value="{{ old('lname') }}" required autocomplete="name" autofocus placeholder="Last Name">
+                            @error('lname')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
                         <div class="form-group">
                             <label for="inputemail"> Email </label>
@@ -56,9 +67,9 @@
                         </div>
                         <div class="form-group">
                             <label for="inputrole">Role</label>
-                            <select class="form-control" id="inputrole">
-                                <option value="admin">Admin</option>
-                                <option value="employee">Employee</option>
+                            <select name="role_id" class="form-control" id="inputrole">
+                                <option value="1">Admin</option>
+                                <option value="2">Employee</option>
                             </select>
                         </div>
                                                 
