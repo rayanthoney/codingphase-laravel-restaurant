@@ -1,4 +1,4 @@
-# 🚀 Restaurant Website
+# 🚀 Restaurant Website Project
 <!-- PROJECT IMAGES -->
 <div align="center">
 <!-- MAIN WEBSITE IMAGE -->
