@@ -58,6 +58,21 @@
           </p>
           <p> Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
           </p>
+          <p>
+            Text Editors 
+            HTML & CSS
+            Terminal For Developers
+            Git Like A Pro
+            Modern PHP 💎
+            Practical PHP Course Projects 💎
+            MYSQL Database 💎
+            Advance CSS with Flexbox and Grid (Optional)
+            SASS Like A Pro (Optional)
+            Practical Javascript 💎
+            Node and NPM Basics
+            Build A Wordpress Theme 💎
+            Learn Laravel by Building A Real Estate Website 💎
+          </p>
         </div>
       </td>
     </tr>
